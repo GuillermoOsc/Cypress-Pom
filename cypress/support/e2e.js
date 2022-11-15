@@ -18,6 +18,7 @@
 import '@applitools/eyes-cypress/commands'
 
 import './commands'
+import 'cypress-plugin-api'
 import 'cypress-mochawesome-reporter/register'
 import '@cypress-audit/lighthouse/commands'
 
