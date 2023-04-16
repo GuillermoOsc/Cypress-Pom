@@ -18,11 +18,6 @@ Dependencias de Node.js:
 
 Para instalar las dependencias, se pueden utilizar los siguientes comandos en la línea de comandos:
 
-```bash
-npm install cypress --save-dev
-npm run cypress:open
-
-
 
 ## Cypress Login Test Automation Project
 
@@ -46,3 +41,4 @@ To install the dependencies, the following command can be used on the command li
 
 ```bash
 npm install cypress --save-dev
+npm run cypress:open
