@@ -8,7 +8,7 @@ export default defineConfig({
   reporterOptions: {
     reportDir: 'cypress/report',
     charts: true,
-    reportPageTitle: 'Joan Media Demo Report',
+    reportPageTitle: 'Demo Report',
     embeddedScreenshots: true,
   },
   env: {
@@ -26,5 +26,19 @@ export default defineConfig({
       return require('./cypress/plugins/index.js')(on, config)
     },
     specPattern: 'cypress/e2e/**/*.{js,jsx,ts,tsx}',
+
+    baseUrl: "https://opensource-demo.orangehrmlive.com/web/index.php/auth/login"
   },
+
+  env: {
+    AdminUser:{
+
+        username: "Admin",
+        password: "admin23"
+      },
+
+      endpoint: {
+        authLogin: "/auth/login"
+      }
+   }
 })
