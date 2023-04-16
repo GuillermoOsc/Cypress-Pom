@@ -18,8 +18,8 @@ Dependencias de Node.js:
 
 Para instalar las dependencias, se pueden utilizar los siguientes comandos en la línea de comandos:
 
-npm install cypress --save-dev
-npm run cypress:open 
+- npm install cypress --save-dev
+- npm run cypress:open 
 
 
 
