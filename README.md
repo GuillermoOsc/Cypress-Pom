@@ -1,10 +1,22 @@
-# cypress-framework
+# Proyecto de automatización de pruebas de login con Cypress
 
-### pom design pattern in cypress
+Este proyecto tiene como objetivo automatizar las pruebas de un formulario de login en un sitio web utilizando la herramienta de testing Cypress. A continuación, se presenta una descripción de los componentes del proyecto:
 
-Before you use this project you only need to have Node Js installed in your computer.
+## Componentes del proyecto
 
-https://nodejs.org/es/download/
+### Archivos del proyecto
 
+- `cypress.json`: archivo de configuración de Cypress.
+- `package.json`: archivo que contiene las dependencias del proyecto y los comandos para ejecutar las pruebas.
+- `cypress/integration/login_spec.js`: archivo que contiene las pruebas de login.
 
-Install project dependencies with: npm i 
+### Dependencias del proyecto
+
+El proyecto utiliza las siguientes dependencias de Node.js:
+
+- `cypress`: herramienta de testing utilizada para escribir y ejecutar pruebas de forma automatizada.
+
+Para instalar las dependencias, se pueden utilizar los siguientes comandos en la línea de comandos:
+
+```bash
+npm install cypress --save-dev
