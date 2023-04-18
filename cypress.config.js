@@ -38,7 +38,8 @@ export default defineConfig({
       },
 
       endpoint: {
-        authLogin: "/auth/login"
+        authLogin: "/auth/login",
+        dashboardIndex: "/dashboard/index"
       }
    }
 })
