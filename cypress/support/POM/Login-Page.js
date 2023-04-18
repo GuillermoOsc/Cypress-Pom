@@ -21,3 +21,4 @@ class Login {
 
 }
 
+export const login = new Login;
